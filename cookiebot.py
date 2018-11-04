@@ -5,9 +5,8 @@ from pynput.mouse import Button, Controller
 import subprocess
 import time
 mouse = Controller()
-time.sleep(10)
 x = int(input("Enter the amount of cookies you want generated: "))
-
+time.sleep(5)
 
 for i in range (x):
     
